@@ -5,6 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/IOToastInput.svg?style=flat)](http://cocoadocs.org/docsets/IOToastInput)
 [![Platform](https://img.shields.io/cocoapods/p/IOToastInput.svg?style=flat)](http://cocoadocs.org/docsets/IOToastInput)
 
+
+![](https://raw.githubusercontent.com/pixle/subway/master/Preview/subway00.jpg)
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
