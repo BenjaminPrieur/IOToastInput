@@ -6,7 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/IOToastInput.svg?style=flat)](http://cocoadocs.org/docsets/IOToastInput)
 
 
-![](https://github.com/ibeneb/IOToastInput/blob/master/Preview/Screen%20Shot%201.png)
+<img src="https://github.com/ibeneb/IOToastInput/blob/master/Preview/Screen%20Shot%201.png" width=320>
 
 ## Usage
 
