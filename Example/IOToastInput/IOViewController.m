@@ -36,7 +36,7 @@
 
 - (void)popNewToast
 {
-    [IOToastInputManager showNotificationWithMessage:@"You can insert your doctor's email"
+    [IOToastInputManager showNotificationWithMessage:@"You can insert your text"
                                      completionBlock:^(NSInteger index, NSString *text) {
                                          NSLog(@"text insert : %@", text);
                                      }];
