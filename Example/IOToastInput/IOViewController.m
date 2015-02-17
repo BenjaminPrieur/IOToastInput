@@ -29,18 +29,17 @@
     
     [IOToastInputManager setDefaultOptions:@{kIOToastNotificationPresentationTypeKey: @(IOToastPresentationTypeUnder)}];
     
-    [IOToastInputManager showNotificationWithMessage:@"You can insert your doctor's email" completionBlock:^(NSInteger index, NSString *text) {
-        NSLog(@"text insert : %@", text);
-    }];
+    [self popNewToast];
     
     [self.view addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(popNewToast)]];
 }
 
 - (void)popNewToast
 {
-    [IOToastInputManager showNotificationWithMessage:@"You can insert your doctor's email" completionBlock:^(NSInteger index, NSString *text) {
-        NSLog(@"text insert : %@", text);
-    }];
+    [IOToastInputManager showNotificationWithMessage:@"You can insert your doctor's email"
+                                     completionBlock:^(NSInteger index, NSString *text) {
+                                         NSLog(@"text insert : %@", text);
+                                     }];
 }
 
 - (void)didReceiveMemoryWarning
