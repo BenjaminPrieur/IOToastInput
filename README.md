@@ -1,6 +1,6 @@
 # IOToastInput
 
-[![CI Status](http://img.shields.io/travis/Benjamin Prieur/IOToastInput.svg?style=flat)](https://travis-ci.org/Benjamin Prieur/IOToastInput)
+[![CI Status](http://img.shields.io/travis/ibeneb/IOToastInput.svg?style=flat)](https://travis-ci.org/ibeneb/IOToastInput)
 [![Version](https://img.shields.io/cocoapods/v/IOToastInput.svg?style=flat)](http://cocoadocs.org/docsets/IOToastInput)
 [![License](https://img.shields.io/cocoapods/l/IOToastInput.svg?style=flat)](http://cocoadocs.org/docsets/IOToastInput)
 [![Platform](https://img.shields.io/cocoapods/p/IOToastInput.svg?style=flat)](http://cocoadocs.org/docsets/IOToastInput)
