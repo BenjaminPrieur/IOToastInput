@@ -11,10 +11,9 @@ Pod::Spec.new do |s|
   s.name             = "IOToastInput"
   s.version          = "0.1.0"
   s.summary          = "IOToastInput is toast with textfield"
-  s.description      = "IOToastInput show a toast with textfield with just 1 line of code and it's easy to personalize"
   s.homepage         = "https://github.com/ibeneb/IOToastInput"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
-  s.license          = 'MIT'
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { "Benjamin Prieur" => "benjamin@smok.io" }
   s.source           = { :git => "https://github.com/ibeneb/IOToastInput.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/bnj_p'
