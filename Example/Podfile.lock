@@ -1,0 +1,14 @@
+PODS:
+  - IOToastInput (0.1.0)
+
+DEPENDENCIES:
+  - IOToastInput (from `../`)
+
+EXTERNAL SOURCES:
+  IOToastInput:
+    :path: ../
+
+SPEC CHECKSUMS:
+  IOToastInput: 04ca28eb32c93b883a321589965c32fbbe5307d5
+
+COCOAPODS: 0.35.0
