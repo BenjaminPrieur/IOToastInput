@@ -9,7 +9,11 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+## Prerequisites
+
+IOToastInput advantages of recent Objective-C runtime advances, including ARC and blocks. It requires:
+
+- iOS 7 or later.
 
 ## Installation
 
@@ -18,9 +22,17 @@ it, simply add the following line to your Podfile:
 
     pod "IOToastInput"
 
+## Example of usage
+
+````objc
+[IOToastInputManager showNotificationWithMessage:@"You can insert your text" completionBlock:^ (NSInteger index, NSString *text) {
+
+}];
+````
+
 ## Author
 
-Benjamin Prieur, benjamin@smok.io
+Benjamin Prieur
 
 ## License
 
